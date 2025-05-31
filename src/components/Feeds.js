@@ -117,6 +117,7 @@ function Feeds(props) {
                 />
             </div>
         </div>
+        
     </section>
   );
 }

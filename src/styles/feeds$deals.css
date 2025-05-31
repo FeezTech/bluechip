@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-around;
     width: auto;
-    height: 1511px;
+    height: auto;
     gap: 40px;
     padding-top: 25px;
 }
