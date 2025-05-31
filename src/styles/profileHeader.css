@@ -1,0 +1,122 @@
+.profile-global-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(242, 243, 247, 1);
+    width: 1500px;
+    height: 2115px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+    height: 151px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(54, 153, 255, 1);
+    width: 1500px;
+    height: 72px;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    width: 1500px;
+    height: 79px;
+}
+
+.left-main-header {
+    display: flex;
+    align-items: center;
+    padding-left: 190px;
+    justify-content: center;
+}
+
+.main-nav-container {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-nav-link {
+    text-decoration: none;
+    color: rgba(200, 227, 255, 1);
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.main-nav-link:hover {
+    background-color: #0070f3;
+    color: #fff;
+}
+
+.right-main-header {
+    display: flex;
+    align-items: center;
+    padding-right: 190px;
+    justify-content: space-between;
+    gap: 2.5rem;
+}
+
+.nav-active {
+    color: rgba(70, 78, 95, 1);
+    font-weight: 600;
+    font-size: 16px;
+    background-image: url('/images/header/Vector 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+}
+
+.sub-header {
+    background-color: rgba(255, 255, 255, 1);
+    border-top: 1px solid #e5e7eb;
+    width: 1500px;
+}
+
+.sub-nav-container {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 190px;
+
+}
+
+.sub-nav-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    color: rgba(128, 128, 143, 1);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sub-nav-link:hover {
+    background-color: #e0f2fe;
+    color: #0284c7; 
+}
+
+
+
+
+

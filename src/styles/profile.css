@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.top-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: auto;
+    height: auto;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    position: relative;
+}
+
+.profile-details {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile-detail {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+.user-info {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    row-gap: 20px;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    margin: 0;
+}
+
+.profile-name {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.user-details {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 345px;
+    height: auto;
+    gap: 20px;
+}
+
+.author, 
+.location, 
+.contact {
+    display: inline-flex;
+    flex-direction: row;
+    font-family: "Roboto", sans-serif;
+    align-items: baseline;
+    column-gap: 5px;
+    color: rgba(181, 181, 195, 1);
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.author img,
+.location img,
+.contact img {
+    vertical-align: middle;
+    position: relative;
+    top: 1px;
+}
+
+.bottom-profile-details {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    text-align: center;
+    width: 870px;
+    height: auto;
+}
+
+.info {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 70px;
+    margin-bottom: 0;
+}
+
+.earning,
+.referral,
+.deal {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 2px dashed rgba(228, 230, 239, 1);
+    padding: 6px 20px;
+    border-radius: 6px;
+    color: rgba(63, 66, 84, 1);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  margin: 3rem 0;
+  height: 1px;
+}
+
+.status {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    width: auto;
+    height: 30px;
+}
+
+.status-info {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.status-rate {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.profile-navigation {
+    font-family: "Roboto", sans-serif;
+    padding: 1rem 2rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.profile-nav-container {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.profile-nav-link {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: rgba(161, 165, 183, 1);
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.profile-nav-link:hover {
+    font-family: "Roboto", sans-serif;
+    background-color: #e0f2fe;
+    color: #0284c7; 
+}
+
+.profile-nav-link.nav-active {
+    font-family: "Roboto", sans-serif;
+    color: rgba(0, 163, 255, 1);
+    text-decoration: underline;
+    text-underline-offset: 14px; /* adjust as needed */
+    text-decoration-thickness: 2px;
+}
+
+
+.earning > h3 {
+    font-family: "Roboto", sans-serif;
+    color: rgba(63, 66, 84, 1);
+    margin-bottom: 6px;
+    font-weight: 900;
+    font-weight: 24px;
+}
+
+.referral > h3 {
+    font-family: "Roboto", sans-serif;
+    color: rgba(63, 66, 84, 1);
+    margin-bottom: 6px;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.deal > h3 {
+    font-family: "Roboto", sans-serif;
+    color: rgba(63, 66, 84, 1);
+    margin-bottom: 6px;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.earning,
+.referral,
+.deal > span {
+    color: rgba(181, 181, 195, 1);
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.profile-status {
+    color: rgba(181, 181, 195, 1);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+
+.profile-percentage {
+    color: rgba(63, 66, 84, 1);
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+}

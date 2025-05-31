@@ -1,0 +1,28 @@
+.feeds-deals-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+    height: 1511px;
+    gap: 40px;
+    padding-top: 25px;
+}
+
+.left-section-feeds {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 545px;
+    border-radius: 10px;
+    row-gap: 16px;
+}
+
+.right-section-deals {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: auto;
+    align-items: center;
+    border-radius: 10px;
+}

@@ -1,0 +1,7 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 1120px;
+    height: 1814px;
+    padding-left: 190px;
+}

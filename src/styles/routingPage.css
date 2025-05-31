@@ -1,0 +1,9 @@
+.routingPage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    width: auto;
+    height: auto;
+    padding-top: 20px;
+    align-items: center;
+}

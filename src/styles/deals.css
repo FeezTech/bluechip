@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.right-container {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    gap: 10px;
+}
+
+.right-section {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(56, 71, 109, 0.05);
+    padding: 20px;
+}
+
+.deals-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+}
+
+.top-deals-card {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deals-details {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.deals-details > span {
+    color: rgba(24, 28, 50, 1);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.deals-details > p {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(181, 181, 195, 1);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.deals-option {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    gap: 10px;
+    background-color: rgba(245, 248, 250, 1);
+    border-radius: 8px;
+    padding: 6px;
+    border: 1px solid rgba(239, 242, 245, 1);
+}
+
+.agent-btn,
+.client-btn {
+    background-color: #f5f8fa;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.deals-option > .agent-btn {
+    color: rgba(94, 98, 120, 1);
+    background-color: rgba(159, 159, 162, 0.238);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.client-btn {
+    color: rgba(181, 181, 195, 1);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bottom-deals-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contribution-details {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    gap: 16px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+}
+
+.project-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.project-details > span {
+    color: rgba(24, 28, 50, 1);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.project-details > p {
+    color: rgba(181, 181, 195, 1);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.project-dropdown {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.project-contributors {
+    display: flex;
+    width: auto;
+}
+
+.contributors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.contributors-details {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: auto;
+    height: auto;
+    column-gap: 20px;
+}
+
+.contributor-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contributor-details > span {
+    color: rgba(63, 66, 84, 1);
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contributor-details > p {
+    color: rgba(181, 181, 195, 1);
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.project-collaborators {
+    background-color: rgba(241, 250, 255, 1);
+    border: 1px dashed rgba(0, 163, 255, 1);
+    padding: 10px;
+}
+
+p {
+    font-size: 13px;
+    font-weight: 700;
+    color: rgba(126, 130, 153, 1);
+}
+
+em {
+    color: rgba(0, 163, 255, 1);
+}
+
+.upgrade {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: 60px;
+    row-gap: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+}
+
+.top-upgrade {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upgrade-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+    margin-top: 40px;
+    row-gap: 10px;
+}
+
+.upgrade-header span {
+    color: rgba(24, 28, 50, 1);
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.upgrade-text p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    color: rgba(126, 130, 153, 1);
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+}
+
+.upgrade-btn button {
+    background-color: rgba(0, 163, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 6px;
+    padding: 12px 20px;
+    width: auto;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-top: 12px;
+}
+
+.bottom-upgrade {
+    margin-top: 60px;
+    width: auto;
+
+}
+

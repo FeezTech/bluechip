@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.campaign-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 30px;
+    width: auto;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    gap: 15px;
+}
+
+.campaign-info {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.campaign-name-image {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.campaign-name > span {
+    color: rgba(126, 130, 153, 1);
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.campaign-followers {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+}
+
+.campaign-followers > span {
+    color: rgba(24, 28, 50, 1);
+    font-family: "Roboto", sans-serif;
+    font-size: 34px;
+    font-weight: 700;    
+}
+
+.campaign-rate {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    gap: 10px;
+}
+
+.campaign-rate-percent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+}
+
+.campaign-rate-percent > span {
+    color: rgba(80, 205, 137, 1);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.campaign-rate-percent > p {
+    color: rgba(181, 181, 195, 1);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
