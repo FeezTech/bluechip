@@ -1,12 +1,10 @@
-import '../styles/mainbody.css'
+import '../styles/feeds$deals.css'
 import Feeds$Deals from './Feeds$Deals'
-import Profile from './Profile'
 
 
 function MainBody() {
   return (
-    <main className="main-container">
-        <Profile/>
+    <main className="feeds-container">
         <Feeds$Deals/>
     </main>
   )
